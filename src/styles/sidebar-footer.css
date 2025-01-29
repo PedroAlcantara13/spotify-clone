@@ -1,0 +1,216 @@
+body{
+    background-color: #000;
+    font-family: var(--font-dm-sans);
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 18.75rem; 
+    background-color: #000000;
+    padding: 0.75rem;
+}
+
+.sidebar__navigation {
+    background-color: #121212;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.sidebar .logo {
+    background-color: #121212;
+    display: flex;
+    border-radius: 0.5rem;
+    padding: 1rem 0 0 1rem; 
+}
+
+.sidebar .logo img {
+    width: 5rem;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    margin-top: 1.25rem;
+    padding: 0 1.25rem 0.625rem 1.25rem;
+}
+
+.sidebar nav ul li {
+    padding: 0.625rem 0;
+}
+
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.sidebar nav ul li .fa {
+    font-size: 1.25rem;
+    margin-right: 0.625rem; 
+    font-weight: 300;
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    min-block-size: 2.5rem;
+    padding: 0.25rem 0.5rem;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin-top: 0.625rem; 
+    flex-direction: column;
+}
+
+.library .library__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library__button {
+    margin-right: 0.625rem;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 1.25rem 0.625rem;
+    display: flex;
+}
+
+.library .library__button .fa {
+    font-size: 1.25rem;
+    margin-right: 0.625rem;
+    font-weight: 300;
+    padding-right: 0.5rem;
+}
+
+.library .library__content .fa-plus {
+    margin: 1.5rem 0.625rem;
+}
+
+.section-playlist {
+    background-color: #242424;
+    align-items: flex-start;
+    border-radius: 0.5rem;
+    gap: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    min-block-size: 2.5rem;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin: 0.5rem 0;
+    padding: 1rem 1.25rem;
+}
+
+.section-playlist .section-playlist__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist__content .text {
+    padding-bottom: 0.875rem;
+    color: #fff;
+}
+
+.section-playlist__content .title{
+    font-weight: 700;
+}
+
+.section-playlist__content .subtitle {
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.section-playlist__content .section-playlist__button{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 1.25rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 0.625rem;
+    margin-top: 0.7rem;
+    border: 0px;
+    width: 113px;
+}
+
+.sidebar .cookies{
+    margin: 1.5rem 1.25rem;
+}
+
+.sidebar .cookies a{
+    color: #b3b3b3;
+    font-weight: 500;
+    font-size: 0.625rem;
+    text-decoration: none;
+}
+
+.sidebar .cookies a:hover{
+    text-decoration: underline;
+}
+
+.languages .languages__button{
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #878787;
+    border-radius: 1.25rem;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    width: 10.625rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.disclaimer-premium {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 0.938rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.disclaimer-premium .text {
+   flex-shrink: 0;
+}
+.disclaimer-premium .disclaimer-premium__title {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.75rem;
+    margin-bottom: 0.625rem;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+    color: #ffffff;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.disclaimer-premium button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.875rem 1.875rem;
+    border: 0px;
+    border-radius: 2.5rem;
+    cursor: pointer;
+    flex-shrink: 0;
+}
